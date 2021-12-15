@@ -1,0 +1,413 @@
+@import url("https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Slab:wght@100;200;300;400;700&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300&family=Ubuntu:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+  color: azure;
+  background-image: url("../assets/background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -100;
+}
+
+.divider {
+  display: block;
+  width: 900px;
+  height: 2px;
+  background: linear-gradient(270deg, #193d41, #59cdd1, #193d41);
+  border: none;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #193d41;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  display: inline;
+  top: 0px;
+}
+
+h1 {
+  font-size: 38px;
+  font-family: "Fuzzy Bubbles", sans-serif;
+  color: azure;
+  display: inline;
+  position: relative;
+  top: 10px;
+}
+
+span {
+  color: #59cdd1;
+}
+
+nav ul li {
+  position: relative;
+  display: inline;
+  margin-right: 30px;
+  float: right;
+  bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: azure;
+}
+
+section {
+  margin: 20px 70px;
+  background-color: #193d4198;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#home {
+  margin-top: 100px;
+}
+
+section h2 {
+  font-size: 28px;
+  font-family: "Fuzzy Bubbles", sans-serif;
+  text-align: center;
+}
+
+section p {
+  font-size: 18px;
+  text-align: center;
+  margin: 32px;
+}
+
+button {
+  display: block;
+  font-size: 18px;
+  background-color: #193d4198;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  margin: 20px auto;
+  color: azure;
+  text-align: center;
+  color: #59cdd1;
+}
+
+button:hover {
+  background-color: #59cdd195;
+  color: azure;
+  transition: 0.5s;
+}
+
+section #galeria {
+  display: inline-block;
+}
+
+.card {
+  margin: 20px;
+  width: 350px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.card img {
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 0 1em white;
+}
+
+table {
+  width: 100%;
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+  margin: 7px 0;
+  border-radius: 5px;
+  background-color: #ffffff95;
+  color: #193d41;
+}
+
+th,
+td {
+  height: 35px;
+  border: 1px solid black;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+
+.oito .seg {
+  background-color: rgba(194, 22, 22, 0.664);
+  color: azure;
+}
+
+.oito .ter {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.oito .qua {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.oito .qui {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.oito .sex {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+.oito .sab {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.nove .seg {
+  background-color: rgba(194, 22, 22, 0.664);
+  color: azure;
+}
+
+.nove .ter {
+  background-color: rgba(194, 22, 22, 0.664);
+  color: azure;
+}
+
+.nove .qua {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.nove .qui {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.nove .sex {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.nove .sab {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.dez .seg {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.dez .ter {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.dez .qua {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.dez .qui {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.dez .sex {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.dez .sab {
+  background-color: rgba(194, 22, 22, 0.664);
+  color: azure;
+}
+
+.onze .seg {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.onze .ter {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.onze .qua {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.onze .qui {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.onze .sex {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.onze .sab {
+  background-color: rgba(194, 22, 22, 0.664);
+  color: azure;
+}
+
+.doze .seg {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.doze .ter {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.doze .qua {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.doze .qui {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.doze .sex {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.doze .sab {
+  background-color: rgba(194, 22, 22, 0.664);
+  color: azure;
+}
+
+.treze .seg {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.treze .ter {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.treze .qua {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.treze .qui {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.treze .sex {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.treze .sab {
+  background-color: rgba(194, 22, 22, 0.664);
+  color: azure;
+}
+
+.quatorze .seg {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.quatorze .ter {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.quatorze .qua {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.quatorze .qui {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.quatorze .sex {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.quatorze .sab {
+  background-color: rgba(194, 22, 22, 0.664);
+  color: azure;
+}
+
+.quinze .seg {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.quinze .ter {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.quinze .qua {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.quinze .qui {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.quinze .sex {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.quinze .sab {
+  background-color: rgba(194, 22, 22, 0.664);
+  color: azure;
+}
+
+.dezeseis .seg {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.dezeseis .ter {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.dezeseis .qua {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.dezeseis .qui {
+  background-color: rgba(69, 151, 69, 0.575);
+  color: azure;
+}
+
+.dezeseis .sex {
+  background-color: rgba(194, 22, 22, 0.664);
+  color: azure;
+}
+
+.dezeseis .sab {
+  background-color: rgba(194, 22, 22, 0.664);
+  color: azure;
+}

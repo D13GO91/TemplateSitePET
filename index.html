@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mundo Animal</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Mundo <span>Animal</span></h1>
+    <nav>
+      <ul class="menu">
+        <li><a href="#contato">Contatos</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#agenda">Agenda</a></li>
+        <li><a href="#home">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="home">
+      <h2>Agropet Mundo <span>Animal</span></h2>
+      <p>Agende um horário e deixe seu <span>PET</span> limpinho, cheirozinho e muito feliz com um ótimo tratamento e cuidado</p>
+      <hr class="divider">
+      <a href="#agenda"><button class="bt-agenda">Click aqui e consulte nossa agenda</button></a>
+    </section>
+
+    <section id="galeria">
+      <h2>Galeria</h2>
+      <div class="card">
+        <img src="./assets/IMG_20211212_155345823.jpg" alt="">
+      </div>
+      <div class="card">
+        <img src="./assets/IMG_20211212_155345823.jpg" alt="">
+      </div>
+      <div class="card">
+        <img src="./assets/IMG_20211212_155345823.jpg" alt="">
+      </div>
+    </section>
+
+    <section id="agenda">
+      <h2>Agenda</h2>
+      <table>
+        <tr>
+          <th>Horários</th>
+          <th>Segunda</th>
+          <th>Terça</th>
+          <th>Quarta</th>
+          <th>Quinta</th>
+          <th>Sexta</th>
+          <th>Sabado</th>
+        </tr>
+        <tr class="oito">
+          <td>08h00 - 09h00</td>
+          <td class="seg">Banho: Milli</td>
+          <td class="ter">Livre</td>
+          <td class="qua">Livre</td>
+          <td class="qui">Livre</td>
+          <td class="sex">Livre</td>
+          <td class="sab">Livre</td>
+        </tr>
+        <tr class="nove">
+          <td>09h00 - 10h00</td>
+          <td class="seg">Tosa: Milli</td>
+          <td class="ter">Banho: Max</td>
+          <td class="qua">Livre</td>
+          <td class="qui">Livre</td>
+          <td class="sex">Livre</td>
+          <td class="sab">Livre</td>
+        </tr>
+        <tr class="dez">
+          <td>10h00 - 11h00</td>
+          <td class="seg">Livre</td>
+          <td class="ter">Livre</td>
+          <td class="qua">Livre</td>
+          <td class="qui">Livre</td>
+          <td class="sex">Livre</td>
+          <td class="sab">Banho: Ted</td>
+        </tr>
+        <tr class="onze">
+          <td>11h00 - 12h00</td>
+          <td class="seg">Livre</td>
+          <td class="ter">Livre</td>
+          <td class="qua">Livre</td>
+          <td class="qui">Livre</td>
+          <td class="sex">Livre</td>
+          <td class="sab">Tosa: Ted</td>
+        </tr>
+        <tr class="doze">
+          <td>12h00 - 13h00</td>
+          <td class="seg">Livre</td>
+          <td class="ter">Livre</td>
+          <td class="qua">Livre</td>
+          <td class="qui">Livre</td>
+          <td class="sex">Livre</td>
+          <td class="sab">Fechado</td>
+        </tr>
+        <tr class="treze">
+          <td>13h00 - 14h00</td>
+          <td class="seg">Livre</td>
+          <td class="ter">Livre</td>
+          <td class="qua">Livre</td>
+          <td class="qui">Livre</td>
+          <td class="sex">Livre</td>
+          <td class="sab">Fechado</td>
+        </tr>
+        <tr class="quatorze">
+          <td>14h00 - 15h00</td>
+          <td class="seg">Livre</td>
+          <td class="ter">Livre</td>
+          <td class="qua">Livre</td>
+          <td class="qui">Livre</td>
+          <td class="sex">Livre</td>
+          <td class="sab">Fechado</td>
+        </tr>
+        <tr class="quinze">
+          <td>15h00 - 16h00</td>
+          <td class="seg">Livre</td>
+          <td class="ter">Livre</td>
+          <td class="qua">Livre</td>
+          <td class="qui">Livre</td>
+          <td class="sex">Livre</td>
+          <td class="sab">Fechado</td>
+        </tr>
+        <tr class="dezeseis">
+          <td>16h00 - 17h00</td>
+          <td class="seg">Livre</td>
+          <td class="ter">Livre</td>
+          <td class="qua">Livre</td>
+          <td class="qui">Livre</td>
+          <td class="sex">Banho: Nina</td>
+          <td class="sab">Fechado</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+
+      <div class="form">
+
+        <h3>Complete as informações para solicitiar um agendamento</h3>
+
+        <form>
+
+          <input type="text" name="name" placeholder="Nome" required>
+          <input type="text" name="petName" placeholder="Nome do PET" required>
+          <input type="tel" name="cel" placeholder="Telefone de contato" required>
+          <input type="email" name="email" placeholder="E-mail de contato">
+
+          <h3>Seleciona uma data para agendar, iremos verificar a disponibilidade e entrar em contato para confirmar</h3>
+          <input type="date" name="agenda" min="2022-01-01" max="2022-01-30">
+
+          <h3>Serviço</h3>
+          <input type="checkbox" name="service" value="banho" checked>Banho<br>
+          <input type="checkbox" name="service" value="tosa">Tosa<br>
+
+          <h3>Porte do PET</h3>
+          <input type="radio" name="porte" id="pequeno" value="pequeno" checked>Porte pequeno<br>
+          <input type="radio" name="porte" id="medio" value="medio">Porte médio<br>
+          <input type="radio" name="porte" id="grande" value="grande">Porte grande<br>
+
+          <h3>Tipo do pelo do PET</h3>
+          <input type="radio" name="pelo" id="peloCurto" value="peloCurto" checked>Pelo curto<br>
+          <input type="radio" name="pelo" id="peloMedio" value="peloMedio">Pelo médio<br>
+          <input type="radio" name="pelo" id="peloLongo" value="peloLongo">Pelo longo<br>
+
+
+          <input type="submit" value="Agendar">
+          <input type="reset" value="Limpar">
+
+        </form>
+      </div>
+    </section>
+
+  </main>
+  <footer>
+
+
+
+  </footer>
+</body>
+
+</html>
