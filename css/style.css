@@ -67,7 +67,7 @@ a {
 
 section {
   margin: 20px 70px;
-  background-color: #193d4198;
+  background-color: #193d41e0;
   padding: 10px;
   border-radius: 10px;
 }
@@ -102,9 +102,9 @@ button {
 }
 
 button:hover {
-  background-color: #59cdd195;
+  background-color: #59cdd198;
   color: azure;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 section #galeria {
@@ -121,7 +121,6 @@ section #galeria {
 .card img {
   width: 350px;
   border-radius: 10px;
-  box-shadow: 0 0 1em white;
 }
 
 table {
@@ -411,3 +410,53 @@ td {
   background-color: rgba(194, 22, 22, 0.664);
   color: azure;
 }
+
+#contato{
+  display: block;
+
+}
+
+.form {
+  width: 700px;
+  padding: 20px;
+  margin: 10px auto;
+  border-radius: 10px;
+  background-color: #ffffff95;
+  color: #193d41;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+  width: 40%;
+  margin: 0 30px;
+  box-sizing: border-box;
+  padding: 5px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin: 10px 0;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  width: 40%;
+  margin: 10px 30px;
+  box-sizing: border-box;
+  padding: 5px;
+  background-color: #193d4198;
+  color: azure;
+  border-radius: 5px;
+  border: none;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #59cdd198;
+  color: azure;
+  transition: 0.3s;
+}
+
+
